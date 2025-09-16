@@ -1,0 +1,25 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{{- with .Title | default .Site.Params.Title }}
+  <title>{{ . }} - Sweet Loop Cafe</title>
+  <meta property="og:title" content="{{ . }} - Sweet Loop Cafe">
+{{- end }}
+{{- with .Description | default .Params.subtitle | default .Summary }}
+  <meta name="description" content="{{ . }}">
+  <meta property="og:description" content="{{ . }}">
+{{ else }}
+  <meta name="description" content="{{ .Site.Params.Summary }}">
+  <meta property="og:description" content="{{ .Site.Params.Summary }}">
+{{- end }}
+  <meta name="author" content="Sweet Loop, Waterloo, Ontario">
+  <link rel="icon" href="{{ absURL "img/sweet-loop-favicon.jpg" }}">
+  <meta property="og:url" content="{{ .Permalink | absLangURL }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Sweet Loop Cafe">
+  {{ hugo.Generator }}
+  <link rel="canonical" href="{{ .Permalink | absLangURL }}">
+  <link rel="stylesheet" href="{{ "sweetloop.css" | absURL }}">
+  {{ partial "site_metadata" }}
+</head>

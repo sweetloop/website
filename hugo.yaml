@@ -1,0 +1,10 @@
+baseURL: https://sweetloop.ca/
+languageCode: en-us
+params:
+  title: Top-Quality Desserts - Handcrafted Churros, Matcha, Soft Serve, Espresso, and More
+  summary: "Sweet Loop is a locally-owned and operated dessert cafe Waterloo, Ontario that specializes in handcrafted churros, directly-sourced Korean matcha and hojicha, extra thick and rich soft serve ice cream, locally-roasted espresso, and more top-quality desserts."
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

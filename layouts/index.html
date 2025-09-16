@@ -1,0 +1,37 @@
+{{ define "main" }}
+<main>
+	<div class="instafeed-container">
+		<div class="scroll-indicator" id="scroll-indicator">→</div>
+		<div class="instafeed" id="instafeed">
+			<div class="igpost nocap">
+				<a href="https://www.instagram.com/sweetloop.ca/"><img src="{{ absURL "img/logo-instagram.svg" }}" alt="Instagram logo">@sweetloop.ca</a>
+			</div>
+			{{ partial "instafeed.html" . }}
+		</div>
+	</div>
+	<div class="content home">
+		<h1>Handcrafted Churros, Thick Soft Serve, Korean Matcha, Locally-roasted Espresso, and More Desserts</h1>
+		<p>Experience a little joy at <span class="slc">SWEET LOOP</span><br> with our amazing desserts and drinks...</p>
+		
+		<div class="f2by2 spaceout">
+		<p><img src="{{ absURL "img/churro-icon.avif" }}" alt="churro icon" class="imgicon"><br>Hot and fresh <a href="{{ ref . "handcrafted-churros" }}">CHURROS</a> made from scratch</p>
+		<p><img src="{{ absURL "img/ice-cream-outline.svg" }}" alt="ice cream icon" class="imgicon"><br>Thick <a href="{{ ref . "soft-serve" }}">SOFT SERVE</a> ice cream in four unique flavours</p>
+		</div>
+
+		<div class="f2by2 spaceout">
+		<p><img src="{{ absURL "img/leaf-outline.svg" }}" alt="tea leaf icon" class="imgicon"><br>Rich and earthy <a href="{{ ref . "matcha-and-hojicha" }}">MATCHA</a> that customers rave about</p>
+		<p><img src="{{ absURL "img/cafe-outline.svg" }}" alt="coffee cup icon" class="imgicon"><br>Locally-roasted espresso and unique <a href="{{ ref . "espresso-and-more" }}">DRINKS</a></p>
+		</div>
+
+		<div>
+			<br>
+			Sweet Loop Cafe is a locally-owned and operated dessert cafe near Wilfrid Laurier University and the University of Waterloo Campus.
+			It's the only dessert cafe in Waterloo Region making  <a href="{{ ref . "handcrafted-churros" }}">handcrafted churros</a>.
+			<br><br>
+			Also serving extra thick  <a href="{{ ref . "soft-serve" }}">soft serve ice cream</a> and a full menu of  <a href="{{ ref . "espresso-and-more" }}">drinks</a> (espresso, matcha, hojicha, tea, and hot chocolate), there's a dessert for everyone and every occasion&mdash;or no occasion at all!
+			<br><br>
+			Using only the best ingredients&mdash;like ceremonial-grade  <a href="{{ ref . "matcha-and-hojicha" }}">matcha</a> sourced directly from a farm in South Korea&mdash;Sweet Loop desserts and drinks will bring a little joy to your day!
+		</div>
+	<div>
+</main>
+{{ end }}

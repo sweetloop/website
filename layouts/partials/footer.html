@@ -1,0 +1,37 @@
+<footer>
+	<div><a href="{{ relref . "about" }}">About</a></div>
+
+	<div>
+		info@sweetloop.ca<br>
+		(226) 609-0178
+	</div>
+
+	<div>
+		Sweet Loop<br>
+		255 King St N<br>
+		Waterloo, ON
+	</div>
+	
+	<div><img src="{{ absURL "img/Canada-flag.png" }}" alt="Flag of Canada, created by E Pluribus Anthony / User:Mzajac, Public domain, via Wikimedia Commons" style="height:1em"></div>
+
+	{{ partial "hours" }}
+</footer>
+<script>
+const instafeed = document.getElementById('instafeed');
+const scrollIndicator = document.getElementById('scroll-indicator');
+function updateScrollIndicator() {
+  const scrollLeft = instafeed.scrollLeft;
+  const maxScroll = instafeed.scrollWidth - instafeed.clientWidth;
+  if (scrollLeft < maxScroll - 200) {
+    scrollIndicator.style.opacity = '1';
+  } else {
+    scrollIndicator.style.opacity = '0';
+  }
+}
+instafeed.addEventListener('scroll', updateScrollIndicator);
+window.addEventListener('resize', updateScrollIndicator);
+updateScrollIndicator();
+</script>
+{{ if not hugo.IsServer }}
+<script src="https://cdn.usefathom.com/script.js" data-site="QGOIPHOK" defer></script>
+{{ end }}

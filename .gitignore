@@ -1,0 +1,7 @@
+public/
+*.tmp
+*.swp
+igfeed/*.html
+igfeed/igfeed
+igfeed/main
+.DS_Store

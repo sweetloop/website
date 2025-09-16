@@ -1,0 +1,28 @@
+<nav>
+	<div id="menu">
+		<div class="menuItem">
+			<a href="{{ ref . "handcrafted-churros" }}">Handcrafted Churros</a>
+		</div>
+
+		<div class="menuItem">
+			<a href="{{ ref . "soft-serve" }}">Soft Serve</a>
+		</div>
+
+		<div class="menuItem" id="logo">
+			<a href="{{ ref . "/" }}"><img id="logo" src="{{ absURL "img/sweet-loop-logo.jpg" }}" height="128" alt="Sweet Loop logo"></a>
+		</div>
+		
+		<div class="menuItem">
+			<a href="{{ ref . "matcha-and-hojicha" }}">Matcha &amp; Hojicha</a>
+		</div>
+
+		<div class="menuItem">
+			<a href="{{ ref . "espresso-and-more" }}">Espresso &amp; More</a>
+		</div>
+	</div>
+	<div id="submenu">
+		<a href="{{ ref . "order-online" }}">Order Online</a>
+		<a href="{{ ref . "catering" }}">Catering</a>
+		<a href="{{ ref . "hours-and-location" }}">Hours &amp; Location</a>
+	</div>
+</nav>
