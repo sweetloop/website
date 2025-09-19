@@ -127,15 +127,13 @@ span.slc {
 }
 .scroll-indicator {
   position: absolute;
-  right: 1em;
-  top: 50%;
-  transform: translateY(-50%);
+  right: 0.5em;
+  bottom: 0.5em;
   background: rgba(0, 0, 0, 0.7);
   color: white;
   padding: 0.5em 0.75em;
   border-radius: 50%;
   font-size: 1.2em;
-  pointer-events: none;
   transition: opacity 0.3s ease;
   z-index: 10;
 }
