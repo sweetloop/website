@@ -16,23 +16,25 @@
 
 	{{ partial "hours" }}
 </footer>
-<script>
-const instafeed = document.getElementById('instafeed');
-const scrollIndicator = document.getElementById('scroll-indicator');
-function updateScrollIndicator() {
-  const scrollLeft = instafeed.scrollLeft;
-  const maxScroll = instafeed.scrollWidth - instafeed.clientWidth;
-  if (scrollLeft < maxScroll - 200) {
-    scrollIndicator.style.opacity = '1';
-  } else {
-    scrollIndicator.style.opacity = '0';
-  }
-}
-instafeed.addEventListener('scroll', updateScrollIndicator);
-window.addEventListener('resize', updateScrollIndicator);
-updateScrollIndicator();
-</script>
+{{ if .IsHome }}
+	<script>
+	const instafeed = document.getElementById('instafeed');
+	const scrollIndicator = document.getElementById('scroll-indicator');
+	function updateScrollIndicator() {
+	  const scrollLeft = instafeed.scrollLeft;
+	  const maxScroll = instafeed.scrollWidth - instafeed.clientWidth;
+	  if (scrollLeft < maxScroll - 200) {
+	    scrollIndicator.style.opacity = '1';
+	  } else {
+	    scrollIndicator.style.opacity = '0';
+	  }
+	}
+	instafeed.addEventListener('scroll', updateScrollIndicator);
+	window.addEventListener('resize', updateScrollIndicator);
+	updateScrollIndicator();
+	</script>
+{{ end }}
 {{ if not hugo.IsServer }}
-<script src="https://cdn.usefathom.com/script.js" data-site="QGOIPHOK" defer></script>
-{{ partial "ad_dessert_store" }}
+	<script src="https://cdn.usefathom.com/script.js" data-site="QGOIPHOK" defer></script>
+	{{ partial "ad_dessert_store" }}
 {{ end }}
