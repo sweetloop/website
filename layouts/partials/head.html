@@ -21,5 +21,6 @@
   {{ hugo.Generator }}
   <link rel="canonical" href="{{ .Permalink | absLangURL }}">
   <link rel="stylesheet" href="{{ "sweetloop.css" | absURL }}">
+  {{ partial "ig_preload" }}
   {{ partial "site_metadata" }}
 </head>
