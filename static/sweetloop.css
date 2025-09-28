@@ -134,6 +134,7 @@ span.slc {
   padding: 0.5em 0.75em;
   border-radius: 50%;
   font-size: 1.2em;
+  opacity: 1;
   transition: opacity 0.3s ease;
   z-index: 10;
 }
