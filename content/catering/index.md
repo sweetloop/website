@@ -28,14 +28,14 @@ We offer a discount for bulk orders.
 <tr>
 <td style="border: 1px solid #ddd; padding: 8px;"><strong>Churros</strong></td>
 <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">20% off</td>
-<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">30% off</td>
-<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">45% off</td>
+<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">25% off</td>
+<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">40% off</td>
 </tr>
 <tr>
 <td style="border: 1px solid #ddd; padding: 8px;"><strong>Drinks</strong></td>
 <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">20% off</td>
-<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">30% off</td>
-<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">40% off plus free churro bites if available</td>
+<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">25% off</td>
+<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">35% off plus free churro bites if available</td>
 </tr>
 </tbody>
 </table>
