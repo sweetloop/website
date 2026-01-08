@@ -20,16 +20,15 @@ A minimum of 48 hours notice is required to cancel an order for a full refund.
 * 100 Churros : $120
 * 200 Churros : $200
 
-(Extra sauce: 30% off)
+(Extra sauce: 20% off)
 
 </div>
+
 <div class="img">
 <img src="{{< img "img/classic-churros.avif" >}}" alt="Sweet Loop classic churros" style="width:50%">
 </div>
 
 </div>
-
-
 
 ## Decorated Churros
 
@@ -43,15 +42,12 @@ A minimum of 48 hours notice is required to cancel an order for a full refund.
 
 * Over 30 Drinks : 20% Off
 * Over 40 Drinks : 25% Off
-* Over 50 Drinks with Churro Bites : 35% Off 
-
-(Churro bites provided upon availability)
+* Over 50 Drinks : 35% Off 
 
 ### Delivery and Pickup
 
 <ul>
-<li>Free delivery within 15 km for orders over $400, or...</li>
-<li><strong>Delivery:</strong> $25 within 15 km. Beyond 15 km: +$1/km</li>
+<li><strong>Delivery:</strong> $25 up to 15 km, then +$1/km</li>
 <li><strong>Pickup:</strong> free of charge at our café: <strong>255 King St. N, Unit 12, Waterloo</strong></li>
 </ul>
 
