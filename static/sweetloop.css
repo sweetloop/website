@@ -6,7 +6,7 @@
 
 .announcement-banner {
   background: #afbf9b;
-  color: #dfcd91;
+  color: black;
   text-align: center;
   padding: 0.8em 1em;
   font-size: 1.1rem;
@@ -14,9 +14,7 @@
   letter-spacing: 0.02em;
   margin-bottom:0.5rem;
 }
-.announcement-banner a {
-  color: #784125;
-}
+.announcement-banner a { color: #784125; }
 
 *, *::before, *:after { box-sizing: border-box; }
 html { 
