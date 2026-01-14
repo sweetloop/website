@@ -3,6 +3,21 @@
   inherits: false;
   initial-value: #ad4e64;
 }
+
+.announcement-banner {
+  background: #afbf9b;
+  color: #dfcd91;
+  text-align: center;
+  padding: 0.8em 1em;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  margin-bottom:0.5rem;
+}
+.announcement-banner a {
+  color: #784125;
+}
+
 *, *::before, *:after { box-sizing: border-box; }
 html { 
   -webkit-text-size-adjust: 100%; 
