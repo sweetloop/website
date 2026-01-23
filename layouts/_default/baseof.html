@@ -2,9 +2,11 @@
 <html lang="{{ .Lang }}">
 {{ partial "head.html" . }}
 <body>
+{{ if ne .RelPermalink "/dubai-chewy-cookies/" }}
 <div class="announcement-banner">
 	<strong>Dubai Chewy Cookies</strong> are back for a limited time - <b><a href="/dubai-chewy-cookies">Pre-order yours today!</a></b>
 </div>
+{{ end }}
 {{ partial "nav.html" . }}
 {{ block "main" . }}{{ end }}
 {{ partial "footer.html" . }}
