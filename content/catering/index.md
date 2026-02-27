@@ -15,10 +15,12 @@ A minimum of 48 hours notice is required to cancel an order for a full refund.
 <div class="showcase">
 <div class="txt">
 
-* 30 Churros : $55
-* 50 Churros : $80
-* 100 Churros : $120
-* 200 Churros : $200
+* 30 Churros : $80
+* 40 Churros : $110
+* 50 Churros : $145
+* 60 Churros : $170
+* 100 Churros : $300
+* 200 Churros : $550
 
 (Extra sauce: 20% off)
 
