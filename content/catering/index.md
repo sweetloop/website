@@ -1,6 +1,6 @@
 ---
 title: "Catering"
-description: "Order handcrafted Sweet Loop churros for your office, parties, and special events."
+description: "Order Sweet Loop for your office, parties, and special events."
 ---
 
 <div class="content left">
@@ -42,9 +42,9 @@ A minimum of 48 hours notice is required to cancel an order for a full refund.
 
 ## Drinks
 
-* Over 30 Drinks : 20% Off
-* Over 40 Drinks : 25% Off
-* Over 50 Drinks : 35% Off 
+* Over 30 Drinks : 10% Off
+* Over 40 Drinks : 15% Off
+* Over 50 Drinks : 20% Off 
 
 ### Delivery and Pickup
 
