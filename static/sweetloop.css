@@ -75,10 +75,9 @@ div#submenu {
   color: white;
   border-radius: 2em;
   padding: 1rem;
-  margin: -35px 0 0;
+  margin: -35px 0.5rem 0 0.5rem;
 }
 div#submenu > a { color:white; }
-
 
 main {
   margin: 1em auto;
@@ -250,7 +249,7 @@ footer a { color: white; }
   div#submenu {
     font-size: 85%;
     gap: 0.8rem;
-    margin: 1rem 0;
+    margin: 1rem 0.2rem;
     justify-content: space-evenly;
   }
 
@@ -272,7 +271,6 @@ footer a { color: white; }
   div#submenu {
     font-size: 80%;
     gap: 0.5rem;
-    justify-content: space-evenly;
   }
   main { font-size: 90%; margin: 1em 0.5em; }
   .instafeed-container { margin: 0 0.5em; }
