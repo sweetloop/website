@@ -93,14 +93,8 @@ div.content {
   justify-content: center;
   text-align: center;
 }
-.content.home>h1,h2 {
-  font-size: 180%;
-  font-weight: bold;
-}
-.content.home p {
-  font-size: 150%;
-  line-height: 150%;
-}
+  
+div.content.home { gap: 2rem;}
 
 div.content.left {
   max-width: 640px;
@@ -108,8 +102,24 @@ div.content.left {
 }
 .imgicon { height: 2em; }
 
-span.slc {
-  text-transform: uppercase;
+.delicious {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.delicious > div {
+  font-size: 0.8rem;
+}
+.delicious img {
+  max-width: 200px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+  display: block;
+  margin-bottom: 0.5rem;
+  margin: 0 auto;
 }
 
 .f2by2 { display: grid; grid-template-columns: 1fr 1fr; margin:0 auto;}
@@ -206,7 +216,7 @@ footer {
   background: var(--logo-color);
   color: white;
   line-height:1.5rem;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   margin: 0;
   display: flex;
   align-items: center;
@@ -214,6 +224,7 @@ footer {
   flex-wrap: wrap;
   border-top-left-radius: 2em;
   border-top-right-radius: 2em;
+  font-size: 0.9rem;
 }
 footer a { color: white; }
 
@@ -229,8 +240,6 @@ footer a { color: white; }
 /* ------------------------------------------------------------------------ */
 
 @media screen and (max-width: 639px) {
-  /* nav { position: relative; margin-bottom: 1rem; } */
-
   div#menu {
     height: auto;
     display: grid;
@@ -238,29 +247,25 @@ footer a { color: white; }
     justify-items: center;
     align-items: center;
     text-align: center;
-    gap: 1em;
-    padding: 0.5rem 1rem;
-    margin: 0 0 1em;
+    gap: 1rem;
+    padding: 0.5rem;
     width: 100%;
   }
-  .menuItem#logo {
-    grid-column: 1 / -1;
-  }
+  .menuItem#logo { grid-column: 1 / -1; }
   div#submenu {
     font-size: 85%;
-    gap: 0.8rem;
-    margin: 1rem 0.2rem;
+    gap: 1rem;
+    margin: 0.5rem 0.2rem;
+    padding: 0.8rem;
     justify-content: space-evenly;
   }
-
   footer {
     flex-direction: column;
     gap: 1rem;
     text-align: center;
   }
-
+  .delicious img {max-width: 140px; max-height: 140px;}
   .f2by2 { grid-template-columns: 1fr; }
-  
   .showcase { grid-template-columns: 100%; }
   .showcase .img { order: -1; }
   .showcase .txt { margin-bottom: 4em; }
