@@ -34,12 +34,12 @@ a:hover, a:focus {  text-decoration: underline; text-decoration-style: wavy; }
 img { margin: 0; max-width: 100%; /* fit container */ }
 
 .announcement-banner {
-  background: var(--pistachio); 
+  /*background: var(--pistachio); */
   color: black;
   text-align: center;
   padding: 0.8em 1em;
   font-size: 1.1rem;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 0.02em;
   margin-bottom:0.5rem;
 }
