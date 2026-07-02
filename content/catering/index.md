@@ -34,9 +34,9 @@ A minimum of 48 hours notice is required to cancel an order for a full refund.
 
 ## Decorated Churros
 
-* Over 30 Churros: 20% Off
-* Over 40 Churros: 25% Off
-* Over 50 Churros: 40% Off
+* Over 30 Churros: 15% Off
+* Over 40 Churros: 20% Off
+* Over 50 Churros: 25% Off
 
 (Includes sauce and toppings)
 
